@@ -13,9 +13,9 @@ int main(void)
 	{
 		putchar(i);
 	}
-	while (j = 'a' && j <= 'z')
+	for (j = 'a' && j <= 'z')
 	{
-		putchar(toupper(j));
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
