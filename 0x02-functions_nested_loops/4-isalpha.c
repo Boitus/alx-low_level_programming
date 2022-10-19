@@ -2,7 +2,6 @@
 /**
  * _isalpha - checks for alphabetic character
  * @c: Will either be letter, lowercase or uppercase
- * Written by Imraan Thabang Leeuw
  * Return: 1 if c is a char, lowcase or uppercase and return 0 if its neither
  */
 int _isalpha(int c)
@@ -14,5 +13,5 @@ int _isalpha(int c)
 	else
 	}
 		return (0);
-	}
+	{
 }
