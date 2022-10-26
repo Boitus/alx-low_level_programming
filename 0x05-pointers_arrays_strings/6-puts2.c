@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * void puts_half - prints one char out of 2 of a string.
+ *puts2 - prints one char out of 2 of a string.
  * @str: input string
  * Return: no return
  */
-void void puts_half(char str)
+void puts2(char *str)
 {
 	int count = 0;
 
@@ -18,7 +18,7 @@ void void puts_half(char str)
 			break;
 		}
 		if (count % 2 == 0)
-			putchar(str[count];
+			putchar(str[count]);
 		count++;
 	}
 }
